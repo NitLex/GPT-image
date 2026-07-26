@@ -10,11 +10,8 @@ build/
 .mypy_cache/
 .ruff_cache/
 output/
-references/*
-!references/.gitkeep
 .DS_Store
-*.png
-*.jpg
-*.jpeg
-*.webp
-.venv/
+
+# Keep reference creatives tracked
+!references/
+!references/**
