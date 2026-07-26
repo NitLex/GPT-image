@@ -1,0 +1,19 @@
+.env
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+output/
+.DS_Store
+
+# Keep reference and generated creatives tracked
+!references/
+!references/**
+!generated/
+!generated/**
